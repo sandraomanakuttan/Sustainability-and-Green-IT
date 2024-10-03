@@ -1,54 +1,176 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/innohub)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/innohub?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/innohub?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/QAkjqXuICQE?style=social)](https://youtu.be/QAkjqXuICQE)
+Sustainability and Green IT Website
+Welcome to the Sustainability and Green IT website! This platform is designed to promote green IT practices, offer sustainable tech solutions, and educate businesses on reducing their environmental impact through technology.
 
-  <br />
-  <br />
+Table of Contents
+Overview
+Features
+Technologies Used
+How to Run the Project
+Modules and Screenshots
+Contributing
+License
+Overview
+The website serves as an educational and solution-oriented platform focused on integrating sustainability into the IT world. It showcases the importance of reducing carbon footprints, e-waste management, energy-efficient computing, and green cloud solutions.
 
-  <h2 align="center">InnoHub - Digital Marketing Agency Website</h2>
+Features
+Interactive homepage with a call-to-action and statistics.
+Green IT Solutions Module with detailed service information.
+Carbon Footprint Calculator to help users assess their IT impact.
+Sustainability Blog with articles and tips on green IT practices.
+Eco-friendly Products Store to promote sustainable tech products.
+User Dashboard for tracking sustainability progress.
+Contact Us Module with Google Maps integration.
+Technologies Used
+Frontend:
 
-  InnoHub is a fully responsive digital marketing agency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+HTML5
+CSS3
+Bootstrap 5
+JavaScript (for interactivity and animations)
+Backend:
 
-  <a href="https://codewithsadee.github.io/innohub/"><strong>➥ Live Demo</strong></a>
+Flask (Python-based web framework)
+Jinja2 templating engine
+Database:
 
-</div>
+SQLite / MySQL (as needed)
+How to Run the Project
+Clone the repository:
 
-<br />
+bash
+Copy code
+git clone https://github.com/your-repo-url.git
+Navigate to the project directory:
 
-### Demo Screeshots
+bash
+Copy code
+cd sustainability-green-it-website
+Create a virtual environment:
 
-![InnoHub Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+bash
+Copy code
+python3 -m venv venv
+Activate the virtual environment:
 
-### Prerequisites
+On macOS/Linux:
 
-Before you begin, ensure you have met the following requirements:
+bash
+Copy code
+source venv/bin/activate
+On Windows:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+bash
+Copy code
+venv\Scripts\activate
+Install the dependencies:
 
-### Run Locally
+bash
+Copy code
+pip install -r requirements.txt
+Run the Flask server:
 
-To run **InnoHub** locally, run this command on your git bash:
+bash
+Copy code
+flask run
+Open your web browser and visit http://127.0.0.1:5000 to view the website.
 
-Linux and macOS:
+## Modules and Screenshots
 
-```bash
-sudo git clone https://github.com/codewithsadee/innohub.git
-```
+### 1. Homepage
+The homepage introduces users to sustainability efforts and key statistics about the environmental impact of IT systems.
 
-Windows:
+![Homepage Screenshot](static/img/p1.png)
 
-```bash
-git clone https://github.com/codewithsadee/innohub.git
-```
+---
 
-### Contact
+### 2. About Us
+Provides information about the mission, vision, and goals related to green IT and sustainability.
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+![About Us Screenshot](static/img/p2.png)
 
-### License
+---
 
-This project is **free to use** and does not contains any license.
+### 3. Green IT Solutions
+Showcases the various solutions offered, including energy-efficient computing, cloud solutions, and e-waste management.
+
+![Green IT Solutions Screenshot](static/img/p3.png)
+
+---
+
+### 4. Carbon Footprint Calculator
+Allows users to input data and calculate their IT carbon footprint, offering real-time tips for improvement.
+
+![Carbon Footprint Calculator Screenshot](static/img/p4.png)
+
+---
+
+### 5. Green Practices Blog
+Features educational content and articles about green IT practices and success stories.
+
+![Blog Screenshot](static/img/p5.png)
+
+---
+
+### 6. Eco-friendly Products Store
+Displays a wide range of eco-friendly tech products with filtering and purchase options.
+
+![Eco-friendly Store Screenshot](static/img/p6.png)
+
+---
+
+### 7. Sustainability Tracker
+Helps users visualize and track their sustainability progress, including energy savings and carbon reduction.
+
+![Sustainability Tracker Screenshot](static/img/p7.png)
+
+---
+
+### 8. Contact Us
+Allows users to easily get in touch and ask about green IT solutions, integrated with Google Maps for easy location finding.
+
+![Contact Us Screenshot](static/img/p8.png)
+
+1. Homepage
+The homepage introduces users to sustainability efforts and key statistics about the environmental impact of IT systems.
+
+
+2. About Us
+Provides information about the mission, vision, and goals related to green IT and sustainability.
+
+
+3. Green IT Solutions
+Showcases the various solutions offered, including energy-efficient computing, cloud solutions, and e-waste management.
+
+
+4. Carbon Footprint Calculator
+Allows users to input data and calculate their IT carbon footprint, offering real-time tips for improvement.
+
+
+5. Green Practices Blog
+Features educational content and articles about green IT practices and success stories.
+
+
+6. Eco-friendly Products Store
+Displays a wide range of eco-friendly tech products with filtering and purchase options.
+
+
+7. Sustainability Tracker
+Helps users visualize and track their sustainability progress, including energy savings and carbon reduction.
+
+
+8. Contact Us
+Allows users to easily get in touch and ask about green IT solutions, integrated with Google Maps for easy location finding.
+
+
+Contributing
+We welcome contributions to enhance this project! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch: git checkout -b feature-name
+Make your changes and commit: git commit -m 'Add feature'
+Push to the branch: git push origin feature-name
+Create a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Feel free to update this README as necessary to reflect any changes in your project or modules. Replace the image paths (static/img/p1.png to p8.png) with your actual screenshot paths when you have them ready.
