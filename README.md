@@ -1,4 +1,4 @@
-Sustainability and Green IT Website
+#Sustainability and Green IT Website
 Welcome to the Sustainability and Green IT website! This platform is designed to promote green IT practices, offer sustainable tech solutions, and educate businesses on reducing their environmental impact through technology.
 
 Table of Contents
@@ -37,10 +37,7 @@ SQLite / MySQL (as needed)
 How to Run the Project
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-repo-url.git
-Navigate to the project directory:
+
 
 bash
 Copy code
@@ -128,7 +125,6 @@ Helps users visualize and track their sustainability progress, including energy 
 ### 8. Contact Us
 Allows users to easily get in touch and ask about green IT solutions, integrated with Google Maps for easy location finding.
 
-![Contact Us Screenshot](p8.png)
 
 1. Homepage
 The homepage introduces users to sustainability efforts and key statistics about the environmental impact of IT systems.
